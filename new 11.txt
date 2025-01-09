@@ -1,0 +1,10 @@
+allow all - new policy
+allow only zt and block others - zt is not responding
+global default - block all 2users part of the group will have line 2
+global default - allow all 
+create app prmsn policy where all apps are blocked  - for alex (direct assignment)
+new policy - block all for 3rd party - assign only to alex
+
+
+
+
